@@ -6715,7 +6715,7 @@
     "supports_vision": true
   },
    "qwen3.6-plus": {
-    "litellm_provider": "dashscpope",
+    "litellm_provider": "dashscope",
     "max_input_tokens": 991808,
     "max_output_tokens": 65536,
     "max_tokens": 65536,
