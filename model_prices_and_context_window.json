@@ -6714,7 +6714,7 @@
     "supports_tool_choice": true,
     "supports_vision": true
   },
-   "qwen3.6-plus": {
+  "qwen3.6-plus": {
     "litellm_provider": "dashscope",
     "max_input_tokens": 991808,
     "max_output_tokens": 65536,
@@ -6724,25 +6724,7 @@
     "supports_function_calling": true,
     "supports_reasoning": true,
     "supports_tool_choice": true,
-    "supports_vision": true,
-    "tiered_pricing": [
-      {
-        "input_cost_per_token": 4e-07,
-        "output_cost_per_token": 2.4e-06,
-        "range": [
-          0,
-          256000.0
-        ]
-      },
-      {
-        "input_cost_per_token": 5e-07,
-        "output_cost_per_token": 3e-06,
-        "range": [
-          256000.0,
-          1000000.0
-        ]
-      }
-    ]
+    "supports_vision": true
   },
   "bedrock/ap-northeast-1/qwen.qwen3-coder-next": {
     "input_cost_per_token": 6e-07,
@@ -30172,7 +30154,7 @@
    "qwen3.6-plus": {
     "input_cost_per_token": 4e-07,
     "input_cost_per_token_above_256k_tokens": 5e-07,
-    "litellm_provider": "openrouter",
+    "litellm_provider": "databricks",
     "max_input_tokens": 1000000,
     "max_output_tokens": 65536,
     "max_tokens": 65536,
